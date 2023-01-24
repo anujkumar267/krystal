@@ -373,8 +373,8 @@ button {
     clip-path: polygon(100% 80%, 50% 100%, 0 80%, 0 0, 100% 0);
 }
 #logo {
-    max-width: 100%;
-    height: auto;
+    max-width: 50%;
+    height: 50%;
 }
 /* -Hero Image Caption- */
 .hero-caption {
@@ -699,7 +699,8 @@ button {
 
 @media (max-width : 479px) {
     #logo {
-        width: 50%;
+        width: 20%;
+        height: 10%;
     }
     h1 {
         font-size: 2rem;
