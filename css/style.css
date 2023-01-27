@@ -39,6 +39,13 @@ a (active):	#FFD012;
 Primary Color: #FFD012;
 Accent Color: #222;
 -------------------------------------------------------------------*/
+#myVideo {
+    /* position: fixed; */
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 /* Raleway Font */
@@ -327,7 +334,7 @@ button {
 
 /* --------------------------- /////////// III. HEADER & NAVIGATION /////////// --------------------------- */
 #main-logo {
-    color: #FFF;
+    color: bl;
     font-family: Cabin, sans-serif;
     font-size: 1.5rem;
     /* 28px */
@@ -440,11 +447,24 @@ button {
 /* --------------------------- /////////// IV. HERO SECTION /////////// --------------------------- */
 /* -Hero Image- */
 .hero-unit {
-    background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.8)), url(../images/hero.jpg);
+    /* background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.8)), url(../images/hero.jpg); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     min-height: 720px;
+    /* position: fixed; */
+    bottom: 0;
+    /* color: #f1f1f1; */
+    width: 100%;
+    /* padding: 20px; */
+}
+
+#myVideo1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .angled-section {
@@ -706,6 +726,11 @@ button {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+.contact-info {
+    font-family: 'Titillium Web';
+    font-size: large;
 }
 
 #cta-section .container {
