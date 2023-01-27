@@ -453,8 +453,10 @@ button {
 }
 
 #logo {
-    max-width: 50%;
-    height: 50%;
+    max-width: 68%;
+    height: 103%;
+    border-radius: 10px;
+    box-shadow: 2px 3px 2px;
 }
 
 /* -Hero Image Caption- */
