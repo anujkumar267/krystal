@@ -908,15 +908,32 @@ button {
     .feature-list div {
         width: 80%;
     }
-    #myVideo1{
+
+    #myVideo1 {
         display: none;
     }
-    .slide-down{
-       color: #222;
+
+    .slide-down-text {
+        color: white;
     }
-    #logo{
-        width:20em;
-        height: 300px;
+
+    #logo {
+        width: 200rem;
+        height: 250px;
     }
-    
+
+    #myVideo {
+        width: 250px;
+    }
+
+    .hero-unit {
+        background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.8)), url(../images/hero.jpg);
+
+    }
+
+    #main-logo {
+        color: white;
+    }
+
+
 }
