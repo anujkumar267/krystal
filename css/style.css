@@ -871,6 +871,9 @@ button {
     .reset {
         margin: 0;
     }
+    #myVideo1{
+       width: 104%; 
+    }
 }
 
 @media (max-width : 479px) {
@@ -944,7 +947,9 @@ button {
     width: 300px;
     padding-top: 50px;
    }
-  
+  .ml-auto{
+    padding-top: 15px;
+  }
 
 
 
