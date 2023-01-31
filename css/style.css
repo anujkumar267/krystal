@@ -928,6 +928,7 @@ button {
 
     .hero-unit {
         background-image: linear-gradient(rgba(17, 17, 17, 0.8), rgba(17, 17, 17, 0.8)), url(../images/hero.jpg);
+        width: 104%;
 
     }
 
