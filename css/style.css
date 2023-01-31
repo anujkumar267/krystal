@@ -939,11 +939,13 @@ button {
         height: 70px;
         padding: 6px 6px 48px 21px;
     }
-   #map-iframe{
-    width: 300px;
-    padding-top: 50px;
-   }
-  
+
+    #map-iframe {
+        width: 300px;
+        padding: 50px 10px 0px 0px;
+        text-align: center;
+    }
+
 
 
 
