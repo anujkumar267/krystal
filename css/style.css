@@ -776,9 +776,9 @@ button {
         margin-left: 30%;
     }
 
-    /* .navbar-light {
+    .navbar-light {
         background-color: rgba(17, 17, 17, 0.5);
-    } */
+    }
 
     .scrolled {
         background-color: rgba(255, 255, 255, 1);
@@ -932,7 +932,7 @@ button {
 
     #main-logo {
         color: white;
-        margin-right: 80px;
+        /* margin-right: 80px; */
     }
    
     #footer {
@@ -946,9 +946,9 @@ button {
         text-align: center;
     }
 
-    .nav-item {
+    /* .nav-item {
         padding-top: 10px;
-    }
+    } */
 
 
 
